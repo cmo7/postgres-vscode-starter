@@ -3,8 +3,8 @@
     "version": "2.2.11",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -99.82638629948708,
-    "scrollLeft": -225.11573490145065,
+    "scrollTop": -227.08595654899548,
+    "scrollLeft": -235.18549093658584,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": true,
@@ -189,7 +189,7 @@
           "active": false,
           "left": 61.889,
           "top": 53.6075,
-          "zIndex": 336,
+          "zIndex": 4,
           "widthName": 60,
           "widthComment": 60,
           "color": "#FF0000"
@@ -342,9 +342,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 39.4235,
-          "top": 400.2747,
-          "zIndex": 337,
+          "left": 37.9768,
+          "top": 325.0432,
+          "zIndex": 8,
           "widthName": 60,
           "widthComment": 60,
           "color": "#D900FF"
@@ -450,10 +450,10 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 607.6647,
-          "top": 79.0222,
-          "zIndex": 338,
+          "active": false,
+          "left": 537.1351,
+          "top": 76.8521,
+          "zIndex": 11,
           "widthName": 60,
           "widthComment": 60,
           "color": "#42FF00"
@@ -537,9 +537,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 566.6251,
-          "top": 403.3132,
-          "zIndex": 326,
+          "left": 527.9243,
+          "top": 342.5494,
+          "zIndex": 9,
           "widthName": 60,
           "widthComment": 60,
           "color": "#E91E63"
@@ -623,9 +623,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1087.9481,
-          "top": 387.5679,
-          "zIndex": 332,
+          "left": 999.3342,
+          "top": 325.7189,
+          "zIndex": 10,
           "widthName": 60,
           "widthComment": 60,
           "color": "#0068FF"
@@ -709,9 +709,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1056.8428,
-          "top": 92.3313,
-          "zIndex": 329,
+          "left": 1001.1426,
+          "top": 83.6507,
+          "zIndex": 12,
           "widthName": 90.8798828125,
           "widthComment": 60
         },
@@ -735,8 +735,8 @@
           "columnIds": [
             "285cc2d0-3c4a-4997-8649-2c73276c60c4"
           ],
-          "x": 607.6647,
-          "y": 154.5222,
+          "x": 537.1351,
+          "y": 152.3521,
           "direction": "left"
         },
         "end": {
@@ -761,8 +761,8 @@
           "columnIds": [
             "87ceedbb-cffe-402f-8955-d4dcc10c5b1b"
           ],
-          "x": 941.15195546875,
-          "y": 468.5632,
+          "x": 902.45115546875,
+          "y": 407.7994,
           "direction": "right"
         },
         "end": {
@@ -770,8 +770,8 @@
           "columnIds": [
             "c2b087f6-44fc-4478-b326-19d31b5b93ea"
           ],
-          "x": 1087.9481,
-          "y": 452.8179,
+          "x": 999.3342,
+          "y": 390.9689,
           "direction": "left"
         },
         "constraintName": "fk_visitante_to_visita",
@@ -787,8 +787,8 @@
           "columnIds": [
             "285cc2d0-3c4a-4997-8649-2c73276c60c4"
           ],
-          "x": 991.28921171875,
-          "y": 154.5222,
+          "x": 920.75961171875,
+          "y": 152.3521,
           "direction": "right"
         },
         "end": {
@@ -796,8 +796,8 @@
           "columnIds": [
             "2dc102eb-f5c4-429e-aa47-f2e1e330733a"
           ],
-          "x": 1056.8428,
-          "y": 157.5813,
+          "x": 1001.1426,
+          "y": 148.9007,
           "direction": "left"
         },
         "constraintName": "fk_habitats_to_visita_habitat",
@@ -813,8 +813,8 @@
           "columnIds": [
             "e6f90ddb-7825-460c-950e-81c3b96d7932"
           ],
-          "x": 1264.96714296875,
-          "y": 387.5679,
+          "x": 1176.35324296875,
+          "y": 325.7189,
           "direction": "top"
         },
         "end": {
@@ -822,8 +822,8 @@
           "columnIds": [
             "673e09eb-92f0-4bf0-a952-4fd4c67065d8"
           ],
-          "x": 1247.956813671875,
-          "y": 222.8313,
+          "x": 1192.2566136718751,
+          "y": 214.1507,
           "direction": "bottom"
         },
         "constraintName": "fk_visita_to_visita_habitat",
@@ -839,8 +839,8 @@
           "columnIds": [
             "ec1a4613-1a96-453c-83e9-904200ee9c4f"
           ],
-          "x": 255.359291015625,
-          "y": 400.2747,
+          "x": 253.912591015625,
+          "y": 325.0432,
           "direction": "top"
         },
         "end": {
