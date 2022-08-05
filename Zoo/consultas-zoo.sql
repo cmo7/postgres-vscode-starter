@@ -56,7 +56,23 @@ GROUP BY animales.id_animal
 ORDER BY "Numero de Visitas" DESC
 LIMIT 1;
 --@block Queremos una lista de los animales ancianos (su edad es mayor que su esperanza de vida) para cuidarlos con más mimo.
+SELECT 
+    animales.id_animal, 
+    animales.nombre, 
+    especies.nombre, 
+    animales.edad, 
+    especies.esperanza_de_vida
+FROM animales INNER JOIN especies
+ON animales.id_especie = especies.id_especie
+WHERE animales.edad > especies.esperanza_de_vida;
 --@block Queremos una lista de los animales de especies peligrosas.
+SELECT
+    animales.id_animal, animales.nombre
+FROM animales INNER JOIN especies
+ON animales.id_especie = especies.id_especie
+WHERE
+    especies.peligrosidad = 'Alta' OR
+    especies.peligrosidad = 'Media';
 --@block Queremos saber cual es el animal más popular entre personas de género femenino.
 --@block Queremos saber el tamaño total del zoo en metros cuadrados.
 --@block Queremos saber el porcentaje de animales de sexo masculino.
